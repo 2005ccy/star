@@ -14,19 +14,19 @@ cdn地区 | cdn资源地址列表
 
 api名称 | api地址列表 | 官网(英文)地址
 --- | --- | ---
-nodeJs中文api | [http://nodejs.cn/api/](http://nodejs.cn/api/) | [https://nodejs.org/en/](https://nodejs.org/en/)
-webpack2中文api | [http://www.css88.com/doc/webpack2/](http://www.css88.com/doc/webpack2/) | [https://webpack.js.org/](https://webpack.js.org/)
-jquery中文api | [http://www.css88.com/jqapi-1.9](http://www.css88.com/jqapi-1.9)<br/>[http://jquery.cuishifeng.cn/jQuery.get.html](http://jquery.cuishifeng.cn/jQuery.get.html) | [http://jquery.com/](http://jquery.com/)
-css3中文api | [http://www.css88.com/book/css/](http://www.css88.com/book/css/)<br/>[http://css.doyoe.com/](http://css.doyoe.com/) | [https://www.w3.org/Style/CSS/](https://www.w3.org/Style/CSS/)
-React UI组件<br/>(Ant-design) 中文api | [https://ant.design/docs/react/introduce-cn](https://ant.design/docs/react/introduce-cn) | [https://ant.design/docs/react/introduce](https://ant.design/docs/react/introduce)
-Mobile UI【React-Native】组件<br/>(Ant-design) 中文api | [https://mobile.ant.design/docs/react/introduce-cn](https://mobile.ant.design/docs/react/introduce-cn) | [https://mobile.ant.design/docs/react/introduce](https://mobile.ant.design/docs/react/introduce)
-React Native 中文api | [http://reactnative.cn/docs/0.43/getting-started.html](http://reactnative.cn/docs/0.43/getting-started.html) | [http://facebook.github.io/react-native/](http://facebook.github.io/react-native/)
-React 中文api | [https://tianxiangbing.github.io/react-cn/docs/getting-started.html](https://tianxiangbing.github.io/react-cn/docs/getting-started.html) | [https://facebook.github.io/react/](https://facebook.github.io/react/)
-lodash中文api | [http://www.css88.com/doc/lodash/](http://www.css88.com/doc/lodash/) | [https://lodash.com/docs/4.17.4](https://lodash.com/docs/4.17.4)
-backbone中文api | [http://www.css88.com/doc/backbone/](http://www.css88.com/doc/backbone/) | [http://backbonejs.org/](http://backbonejs.org/)
-jsDoc中文api | [http://www.css88.com/doc/jsdoc/index.html](http://www.css88.com/doc/jsdoc/index.html) | [http://usejsdoc.org/](http://usejsdoc.org/)
-bootstrap中文api | [http://www.bootcss.com/](http://www.bootcss.com/)<br/>[http://bootstrap.css88.com/](http://bootstrap.css88.com/) | [http://getbootstrap.com/](http://getbootstrap.com/)
-less中文api | [http://www.css88.com/doc/less/](http://www.css88.com/doc/less/) | [http://lesscss.org/](http://lesscss.org/)
+nodeJs中文api | [http://nodejs.cn/api/](http://nodejs.cn/api/) | [nodejs](https://nodejs.org/en/)
+webpack2中文api | [http://www.css88.com/doc/webpack2/](http://www.css88.com/doc/webpack2/) | [webpack](https://webpack.js.org/)
+jquery中文api | [http://www.css88.com/jqapi-1.9](http://www.css88.com/jqapi-1.9)<br/>[http://jquery.cuishifeng.cn/jQuery.get.html](http://jquery.cuishifeng.cn/jQuery.get.html) | [jquery](http://jquery.com/)
+css3中文api | [http://www.css88.com/book/css/](http://www.css88.com/book/css/)<br/>[http://css.doyoe.com/](http://css.doyoe.com/) | [CSS](https://www.w3.org/Style/CSS/)
+React UI组件<br/>(Ant-design) 中文api | [https://ant.design/docs/react/introduce-cn](https://ant.design/docs/react/introduce-cn) | [ant-design](https://ant.design/docs/react/introduce)
+Mobile UI【React-Native】组件<br/>(Ant-design) 中文api | [https://mobile.ant.design/docs/react/introduce-cn](https://mobile.ant.design/docs/react/introduce-cn) | [ant-mobile](https://mobile.ant.design/docs/react/introduce)
+React Native 中文api | [http://reactnative.cn/docs/0.43/getting-started.html](http://reactnative.cn/docs/0.43/getting-started.html) | [react-native](http://facebook.github.io/react-native/)
+React 中文api | [https://tianxiangbing.github.io/react-cn/docs/getting-started.html](https://tianxiangbing.github.io/react-cn/docs/getting-started.html) | [react](https://facebook.github.io/react/)
+lodash中文api | [http://www.css88.com/doc/lodash/](http://www.css88.com/doc/lodash/) | [lodash](https://lodash.com/docs/4.17.4)
+backbone中文api | [http://www.css88.com/doc/backbone/](http://www.css88.com/doc/backbone/) | [backbonejs](http://backbonejs.org/)
+jsDoc中文api | [http://www.css88.com/doc/jsdoc/index.html](http://www.css88.com/doc/jsdoc/index.html) | [jsdoc](http://usejsdoc.org/)
+bootstrap中文api | [http://www.bootcss.com/](http://www.bootcss.com/)<br/>[bootstrap](http://bootstrap.css88.com/) | [http://getbootstrap.com/](http://getbootstrap.com/)
+less中文api | [http://www.css88.com/doc/less/](http://www.css88.com/doc/less/) | [less](http://lesscss.org/)
 
 
 教程名称 | 教程地址列表
