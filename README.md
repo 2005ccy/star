@@ -20,18 +20,25 @@ React UI组件(Ant-design) 中文api | [https://ant.design/docs/react/introduce-
 Mobile UI【React-Native】组件(Ant-design) 中文api | [https://mobile.ant.design/docs/react/introduce-cn](https://mobile.ant.design/docs/react/introduce-cn)
 React Native 中文api | [http://reactnative.cn/docs/0.43/getting-started.html](http://reactnative.cn/docs/0.43/getting-started.html)
 React 中文api | [https://tianxiangbing.github.io/react-cn/docs/getting-started.html](https://tianxiangbing.github.io/react-cn/docs/getting-started.html)
+lodash中文api | [http://www.css88.com/doc/lodash/](http://www.css88.com/doc/lodash/)
+backbone中文api | [http://www.css88.com/doc/backbone/](http://www.css88.com/doc/backbone/)
+jsDoc中文api | [http://www.css88.com/doc/jsdoc/index.html](http://www.css88.com/doc/jsdoc/index.html)
+bootstrap中文api | [http://www.bootcss.com/](http://www.bootcss.com/)<br/>[http://bootstrap.css88.com/](http://bootstrap.css88.com/)
+less中文api | [http://www.css88.com/doc/less/](http://www.css88.com/doc/less/)
+
 
 教程名称 | 教程地址列表
 --- | ---
 es6入门 | [http://es6.ruanyifeng.com/](http://es6.ruanyifeng.com/)
 JavaScript 标准参考教程 | [http://javascript.ruanyifeng.com/](http://javascript.ruanyifeng.com/
 D3入门教程 | [http://wiki.jikexueyuan.com/project/d3wiki/force.html](http://wiki.jikexueyuan.com/project/d3wiki/force.html)
-google开发者工具DevTool使用教程 | [https://developers.google.com/web/tools/chrome-devtools/](https://developers.google.com/web/tools/chrome-devtools/)
+google开发者工具DevTool使用教程 | [https://developers.google.com/web/tools/chrome-devtools/](https://developers.google.com/web/tools/chrome-devtools/)<br/>[http://www.css88.com/doc/chrome-devtools/](http://www.css88.com/doc/chrome-devtools/)
 浏览器渲染优化教程 | [https://developers.google.com/web/fundamentals/performance/rendering/](https://developers.google.com/web/fundamentals/performance/rendering/)
 
 前端博客 | 前端博客地址
 --- | ---
 阮一峰 | [http://www.ruanyifeng.com/blog/javascript/](http://www.ruanyifeng.com/blog/javascript/)
+张鑫旭 | [http://www.zhangxinxu.com/wordpress/](http://www.zhangxinxu.com/wordpress/)
 
 前端团队名称 | 前端团队资源地址
 --- | ---
