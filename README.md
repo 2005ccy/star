@@ -1,3 +1,8 @@
-# 使用 star方法写一些感受
-+ [1.redux未必适合你](https://github.com/2005ccy/star/blob/master/redux%E6%9C%AA%E5%BF%85%E9%80%82%E5%90%88%E4%BD%A0.md)
-+ [2.发现卡顿并解决](https://github.com/2005ccy/star/blob/master/%E5%8F%91%E7%8E%B0%E5%8D%A1%E9%A1%BF%E5%B9%B6%E8%A7%A3%E5%86%B3.md)
+# 中文api列表
+
+api名称 | api地址列表
+--- | ---
+nodeJs中文api | [http://nodejs.cn/api/](http://nodejs.cn/api/)
+webpack2中文api | [http://www.css88.com/doc/webpack2/](http://www.css88.com/doc/webpack2/)
+jquery中文api | [http://www.css88.com/jqapi-1.9](http://www.css88.com/jqapi-1.9)<br/>[http://jquery.cuishifeng.cn/jQuery.get.html](http://jquery.cuishifeng.cn/jQuery.get.html)
+css3中文api | [http://www.css88.com/book/css/](http://www.css88.com/book/css/)
