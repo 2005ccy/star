@@ -7,7 +7,8 @@ cdn地区 | cdn资源地址列表
 
 官网名称 | 官网地址
 --- | ---
-es6编译es2015 babel官网 | [http://babeljs.io/](http://babeljs.io/)
+**Babel官网**<br/>es6编译es2015 | [http://babeljs.io/](http://babeljs.io/)
+**Github官网**<br/>流行开源项目git管理库 | [https://github.com](https://github.com)
 
 api名称 | api地址列表
 --- | ---
