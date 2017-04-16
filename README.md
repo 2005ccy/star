@@ -36,8 +36,8 @@ JavaScript 标准参考教程 | [http://javascript.ruanyifeng.com/](http://javas
 D3入门教程 | [http://wiki.jikexueyuan.com/project/d3wiki/force.html](http://wiki.jikexueyuan.com/project/d3wiki/force.html)
 google开发者工具DevTool使用教程 | [https://developers.google.com/web/tools/chrome-devtools/](https://developers.google.com/web/tools/chrome-devtools/)<br/>[http://www.css88.com/doc/chrome-devtools/](http://www.css88.com/doc/chrome-devtools/)
 浏览器渲染优化教程 | [https://developers.google.com/web/fundamentals/performance/rendering/](https://developers.google.com/web/fundamentals/performance/rendering/)
-极客学院<br/>前端开发 | [http://wiki.jikexueyuan.com/list/front-end/](http://wiki.jikexueyuan.com/list/front-end/)
-极客学院<br/>移动开发 | [http://wiki.jikexueyuan.com/list/mobile/](http://wiki.jikexueyuan.com/list/mobile/)
+极客学院--前端开发 | [http://wiki.jikexueyuan.com/list/front-end/](http://wiki.jikexueyuan.com/list/front-end/)
+极客学院--移动开发 | [http://wiki.jikexueyuan.com/list/mobile/](http://wiki.jikexueyuan.com/list/mobile/)
 
 前端博客 | 前端博客地址
 --- | ---
