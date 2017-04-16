@@ -18,11 +18,15 @@ jquery中文api | [http://www.css88.com/jqapi-1.9](http://www.css88.com/jqapi-1.
 css3中文api | [http://www.css88.com/book/css/](http://www.css88.com/book/css/)<br/>[http://css.doyoe.com/](http://css.doyoe.com/)
 React UI组件(Ant-design) 中文api | [https://ant.design/docs/react/introduce-cn](https://ant.design/docs/react/introduce-cn)
 Mobile UI【React-Native】组件(Ant-design) 中文api | [https://mobile.ant.design/docs/react/introduce-cn](https://mobile.ant.design/docs/react/introduce-cn)
+React Native 中文api | [http://reactnative.cn/docs/0.43/getting-started.html](http://reactnative.cn/docs/0.43/getting-started.html)
+React 中文api | [https://tianxiangbing.github.io/react-cn/docs/getting-started.html](https://tianxiangbing.github.io/react-cn/docs/getting-started.html)
+
 
 教程名称 | 教程地址列表
 --- | ---
 es6入门 | [http://es6.ruanyifeng.com/](http://es6.ruanyifeng.com/)
 JavaScript 标准参考教程 | [http://javascript.ruanyifeng.com/](http://javascript.ruanyifeng.com/
+D3入门教程 | [http://wiki.jikexueyuan.com/project/d3wiki/force.html](http://wiki.jikexueyuan.com/project/d3wiki/force.html)
 
 设计名称 | 设计地址列表
 --- | ---
