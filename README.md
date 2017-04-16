@@ -26,6 +26,8 @@ React 中文api | [https://tianxiangbing.github.io/react-cn/docs/getting-started
 es6入门 | [http://es6.ruanyifeng.com/](http://es6.ruanyifeng.com/)
 JavaScript 标准参考教程 | [http://javascript.ruanyifeng.com/](http://javascript.ruanyifeng.com/
 D3入门教程 | [http://wiki.jikexueyuan.com/project/d3wiki/force.html](http://wiki.jikexueyuan.com/project/d3wiki/force.html)
+google开发者工具DevTool使用教程 | [https://developers.google.com/web/tools/chrome-devtools/](https://developers.google.com/web/tools/chrome-devtools/)
+浏览器渲染优化教程 | [https://developers.google.com/web/fundamentals/performance/rendering/](https://developers.google.com/web/fundamentals/performance/rendering/)
 
 前端博客 | 前端博客地址
 --- | ---
