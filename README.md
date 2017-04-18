@@ -38,6 +38,7 @@ google开发者工具DevTool使用教程 | [https://developers.google.com/web/to
 浏览器渲染优化教程 | [https://developers.google.com/web/fundamentals/performance/rendering/](https://developers.google.com/web/fundamentals/performance/rendering/)
 极客学院--前端开发 | [http://wiki.jikexueyuan.com/list/front-end/](http://wiki.jikexueyuan.com/list/front-end/)
 极客学院--移动开发 | [http://wiki.jikexueyuan.com/list/mobile/](http://wiki.jikexueyuan.com/list/mobile/)
+阿里svg 图标库 | [http://www.iconfont.cn/](http://www.iconfont.cn/)
 
 前端博客 | 前端博客地址
 --- | ---
