@@ -27,7 +27,7 @@ backbone中文api | [http://www.css88.com/doc/backbone/](http://www.css88.com/do
 jsDoc中文api | [http://www.css88.com/doc/jsdoc/index.html](http://www.css88.com/doc/jsdoc/index.html) | [jsdoc](http://usejsdoc.org/)
 bootstrap中文api | [http://www.bootcss.com/](http://www.bootcss.com/)<br/>[bootstrap](http://bootstrap.css88.com/) | [http://getbootstrap.com/](http://getbootstrap.com/)
 less中文api | [http://www.css88.com/doc/less/](http://www.css88.com/doc/less/) | [less](http://lesscss.org/)
-SVG 中文api | [https://developer.mozilla.org/zh-CN/docs/Web/SVG](https://developer.mozilla.org/zh-CN/docs/Web/SVG) | [https://developer.mozilla.org/en-US/docs/Web/SVG](https://developer.mozilla.org/en-US/docs/Web/SVG)
+SVG 中文api | [https://developer.mozilla.org/zh-CN/docs/Web/SVG](https://developer.mozilla.org/zh-CN/docs/Web/SVG) | [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG)
 
 
 教程名称 | 教程地址列表
