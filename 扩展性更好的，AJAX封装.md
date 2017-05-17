@@ -31,7 +31,29 @@
 >                        return val && (val + '%');
 >                    }
 >                }
->            }
+>            },
+>            // 请求参数
+>            param: (widget) => {
+>                // 数据查询条数
+>                let param = {
+>                    size: 10
+>                };
+>                // 存在类型选择器
+>                if (widget.selectValue) {
+>                    // 设置类型参数
+>                    param.type = widget.selectValue;
+>                }
+>                // 设置查询文本
+>                param.input = _.trim(widget.searchValue);
+>                // 返回请求参数
+>                return param;
+>            },
+>            // 设置状态值
+>            setState: {
+>                'dataSource': 'data'
+>            },
+>            // 节流请求【如搜索场景，用户输入完毕后，再发起ajax搜索请求】 
+>            throttle: 500,
 >        }
 >    }
 >});
@@ -55,6 +77,10 @@
 >        [`${key}Datas`]: 'data.datalist',
 >        [`${key}Loading`]: false
 >    });
+>
+>  // 节流请求场景
+>  this.doAjax(this.props.api);
+>
 >```
 >3. 工具实现代码
 > ```javascript
@@ -97,6 +123,16 @@
 >                this.config = config;
 >                // 设置ajax 组件对象
 >                this.widget = widget;
+>                // 设置节流方法
+>                if (this.config.throttle) {
+>                    // 重写有节流特性的，ajax请求方法
+>                    this.do = _.throttle(this.do.bind(this), this.config.throttle, {
+>                        // 关闭节流开始前调用
+>                        'leading': false,
+>                        // 节流结束后开始调用
+>                        'trailing': true
+>                    });
+>                }
 >            }
 >
 >            // 请求前，设置状态信息
@@ -119,8 +155,25 @@
 >
 >            // 设置组件状态
 >            setState(state) {
+>                // 定义对象别名
+>                let _this = this;
+>                // 设置对象状态
 >                this.state = state;
->                return this.do();
+>                // 获取承诺对象
+>                let dfd = $.Deferred();
+>                // 将请求放入下一帧
+>                window.requestAnimationFrame(() => {
+>                    // 执行ajax 请求
+>                    _this.do().done((data) => {
+>                        // ajax 执行成功，返回结果
+>                        dfd.resolve(data);
+>                    }).fail((err) => {
+>                        // 执行失败，返回错误
+>                        dfd.reject(err);
+>                    });
+>                });
+>                // 返回承诺对象
+>                return dfd.promise();
 >            }
 >
 >            // 向组件设置状态值
@@ -155,6 +208,34 @@
 >            // 发起ajax get请求
 >            get() {
 >                return $.get(this.getUrl(), this._param);
+>            }
+>
+>            // 支持缓存请求
+>            getCache() {
+>                // 计算请求key
+>                let key = `${this.getUrl()}.${hash(this._param)}`;
+>                // 获取定时器key
+>                let timeoutKey = `${key}.expire`;
+>                // 获取定时器
+>                let tf = util.storage.cache[timeoutKey];
+>                // 清除定时器
+>                tf && clearTimeout(tf);
+>                // 定时清除数据
+>                util.storage.cache[timeoutKey] = setTimeout(() => {
+>                    util.storage.cache[key] = null;
+>                }, 1000 * 60 * 5);
+>                // 获取缓存数据
+>                let c = util.storage.cache[key];
+>                // 如果存在缓存数据
+>                if (c) {
+>                    // 返回克隆数据
+>                    return util.resolve(_.cloneDeep(c));
+>                }
+>                // 发起ajax 请求
+>                return this.get().done((data) => {
+>                    // 备份数据
+>                    util.storage.cache[key] = _.cloneDeep(data);
+>                });
 >            }
 >
 >            // 发起ajax post请求
@@ -261,6 +342,13 @@
 >                }
 >                // 存在请求前，状态修改
 >                !_.isEmpty(this.beforeState) && this._setBeforeState();
+>                // 存在配置参数配置, 使用配置参数
+>                if (_.isFunction(this.config.param)) {
+>                    // 通过配置文件参数，获得参数值
+>                    this._param = this.config.param(this.widget);
+>                }
+>                // 存在配置状态，优先使用配置选项
+>                this.state = this.config.setState ? this.config.setState : this.state;
 >                // 执行后端接口请求
 >                return this[this.config.method]().done((data) => {
 >                    // 改变接口数据
@@ -270,7 +358,7 @@
 >                });
 >            }
 >        }
->    },
+>    }
 >});
 >// 执行初始化方法
 >util.request.init();
