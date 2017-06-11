@@ -28,6 +28,7 @@ jsDoc中文api | [http://www.css88.com/doc/jsdoc/index.html](http://www.css88.co
 bootstrap中文api | [http://www.bootcss.com/](http://www.bootcss.com/)<br/>[bootstrap](http://bootstrap.css88.com/) | [http://getbootstrap.com/](http://getbootstrap.com/)
 less中文api | [http://www.css88.com/doc/less/](http://www.css88.com/doc/less/) | [less](http://lesscss.org/)
 SVG 中文api | [https://developer.mozilla.org/zh-CN/docs/Web/SVG](https://developer.mozilla.org/zh-CN/docs/Web/SVG) | [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG)
+express 4.x 中文api | [https://www.zybuluo.com/XiangZhou/note/208532](https://www.zybuluo.com/XiangZhou/note/208532) | [express](http://www.expressjs.com.cn/4x/api.html)
 
 
 教程名称 | 教程地址列表
