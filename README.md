@@ -16,6 +16,7 @@ api名称 | api地址列表 | 官网(英文)地址
 --- | --- | ---
 nodeJs中文api | [http://nodejs.cn/api/](http://nodejs.cn/api/) | [nodejs](https://nodejs.org/en/)
 webpack2中文api | [http://www.css88.com/doc/webpack2/](http://www.css88.com/doc/webpack2/) | [webpack](https://webpack.js.org/)
+webpack3中文api | [https://doc.webpack-china.org/concepts/](https://doc.webpack-china.org/concepts/) | [webpack](https://webpack.js.org/)
 jquery中文api | [http://www.css88.com/jqapi-1.9](http://www.css88.com/jqapi-1.9)<br/>[http://jquery.cuishifeng.cn/jQuery.get.html](http://jquery.cuishifeng.cn/jQuery.get.html) | [jquery](http://jquery.com/)
 css3中文api | [http://www.css88.com/book/css/](http://www.css88.com/book/css/)<br/>[http://css.doyoe.com/](http://css.doyoe.com/) | [CSS](https://www.w3.org/Style/CSS/)
 React UI组件<br/>(Ant-design) 中文api | [https://ant.design/docs/react/introduce-cn](https://ant.design/docs/react/introduce-cn) | [ant-design](https://ant.design/docs/react/introduce)
