@@ -14,6 +14,7 @@ cdn地区 | cdn资源地址列表
 
 api名称 | api地址列表 | 官网(英文)地址
 --- | --- | ---
+npm中文api | [http://coloration.cc](http://coloration.cc/npmjs-documentation/) | [npm](https://docs.npmjs.com/)
 nodeJs中文api | [http://nodejs.cn/api/](http://nodejs.cn/api/) | [nodejs](https://nodejs.org/en/)
 webpack2中文api | [http://www.css88.com/doc/webpack2/](http://www.css88.com/doc/webpack2/) | [webpack](https://webpack.js.org/)
 webpack3中文api | [https://doc.webpack-china.org/concepts/](https://doc.webpack-china.org/concepts/) | [webpack](https://webpack.js.org/)
