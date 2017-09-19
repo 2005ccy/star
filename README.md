@@ -32,6 +32,7 @@ less中文api | [http://www.css88.com/doc/less/](http://www.css88.com/doc/less/)
 SVG 中文api | [https://developer.mozilla.org/zh-CN/docs/Web/SVG](https://developer.mozilla.org/zh-CN/docs/Web/SVG) | [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG)
 express 4.x 中文api | [https://www.zybuluo.com/XiangZhou/note/208532](https://www.zybuluo.com/XiangZhou/note/208532) | [express](http://www.expressjs.com.cn/4x/api.html)
 浏览器信息api | [ua-parser-js](https://github.com/faisalman/ua-parser-js) | [ua-parser-js](https://github.com/faisalman/ua-parser-js)
+键盘操作api | [mousetrap](https://github.com/ccampbell/mousetrap) | [mousetrap](https://github.com/ccampbell/mousetrap)
 
 
 教程名称 | 教程地址列表
