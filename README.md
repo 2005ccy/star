@@ -34,6 +34,7 @@ express 4.x 中文api | [https://www.zybuluo.com/XiangZhou/note/208532](https://
 浏览器信息api | [ua-parser-js](https://github.com/faisalman/ua-parser-js) | [ua-parser-js](https://github.com/faisalman/ua-parser-js)
 键盘操作api | [mousetrap](https://github.com/ccampbell/mousetrap) | [mousetrap](https://github.com/ccampbell/mousetrap)
 css 动效 | [animate.css](https://github.com/daneden/animate.css) | [animate.css](https://github.com/daneden/animate.css)
+离线文件支持 webpack插件 | [offline-plugin](https://github.com/NekR/offline-plugin) | [offline-plugin](https://github.com/NekR/offline-plugin)
 
 教程名称 | 教程地址列表
 --- | ---
