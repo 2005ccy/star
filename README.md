@@ -2,6 +2,7 @@
 
 github开源项目 | github开源项目URL
 --- | ---
+js桌面应用 | [electron](https://github.com/2005ccy/electron)
 浏览器信息api | [ua-parser-js](https://github.com/faisalman/ua-parser-js)
 键盘操作api | [mousetrap](https://github.com/ccampbell/mousetrap)
 css 动效 | [animate.css](https://github.com/daneden/animate.css)
