@@ -1,8 +1,8 @@
 # 中文api列表
 
-github开源项目 | github开源项目URL
---- | ---
-js桌面应用 | [electron](https://github.com/2005ccy/electron)
+github开源项目 | github开源项目URL | 相关文档
+--- | --- | ---
+js桌面应用 | [electron](https://github.com/2005ccy/electron) | [中文文档]https://github.com/electron/electron/tree/master/docs-translations/zh-CN
 浏览器信息api | [ua-parser-js](https://github.com/faisalman/ua-parser-js)
 键盘操作api | [mousetrap](https://github.com/ccampbell/mousetrap)
 css 动效 | [animate.css](https://github.com/daneden/animate.css)
