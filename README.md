@@ -2,6 +2,11 @@
 
 github开源项目 | github开源项目URL | 相关文档
 --- | --- | ---
+滚动路由插件 | [react-router-scroll](https://github.com/taion/react-router-scroll) | []()
+Router路由redux插件 | [react-router-redux](https://github.com/reactjs/react-router-redux) | []()
+react弹窗相关组件 | [react-modal](https://github.com/reactjs/react-modal) | []()
+high绘图股票图系列 | [react-highstock](https://github.com/kenfehling/react-highstock) | []()
+灵活输入head块 | [react-helmet](https://github.com/nfl/react-helmet) | []()
 react灵活块布局组件 | [react-grid-layout](https://github.com/STRML/react-grid-layout) | []()
 node脚本执行获取参数组件 | [minimist](https://github.com/substack/minimist) | []()
 ip地址工具类 | [node-ip](https://github.com/indutny/node-ip) | []()
