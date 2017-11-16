@@ -2,6 +2,8 @@
 
 github开源项目 | github开源项目URL | 相关文档
 --- | --- | ---
+js画图组件highcharts | [highcharts](https://github.com/highcharts/highcharts-dist) | []()
+百度echarts React包装库 | [echarts-for-react](https://github.com/hustcc/echarts-for-react) | []()
 跨平台设置环境变量 | [cross-env](https://github.com/kentcdodds/cross-env) | []()
 控制台输出颜色组件chalk | [chalk](https://github.com/chalk/chalk) | []()
 js桌面应用 | [electron](https://github.com/2005ccy/electron) | [中文文档](https://github.com/electron/electron/tree/master/docs-translations/zh-CN)
