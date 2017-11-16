@@ -2,6 +2,9 @@
 
 github开源项目 | github开源项目URL | 相关文档
 --- | --- | ---
+react灵活块布局组件 | [react-grid-layout](https://github.com/STRML/react-grid-layout) | []()
+node脚本执行获取参数组件 | [minimist](https://github.com/substack/minimist) | []()
+ip地址工具类 | [node-ip](https://github.com/indutny/node-ip) | []()
 js画图组件highcharts | [highcharts](https://github.com/highcharts/highcharts-dist) | []()
 百度echarts React包装库 | [echarts-for-react](https://github.com/hustcc/echarts-for-react) | []()
 跨平台设置环境变量 | [cross-env](https://github.com/kentcdodds/cross-env) | []()
