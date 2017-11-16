@@ -2,6 +2,7 @@
 
 github开源项目 | github开源项目URL | 相关文档
 --- | --- | ---
+构建函数计算链 | [reselect](https://github.com/reactjs/reselect) | []()
 redux 异步 action 中间件 | [redux-thunk](https://github.com/gaearon/redux-thunk) | []()
 react下拉组件 | [react-select](https://github.com/JedWatson/react-select) | []()
 滚动路由插件 | [react-router-scroll](https://github.com/taion/react-router-scroll) | []()
