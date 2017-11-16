@@ -2,6 +2,8 @@
 
 github开源项目 | github开源项目URL | 相关文档
 --- | --- | ---
+html5 Fetch Ajax垫片组件 | [fetch](https://github.com/github/fetch) | []()
+构建带样式的组件 | [styled-components](https://github.com/styled-components/styled-components) | []()
 构建函数计算链 | [reselect](https://github.com/reactjs/reselect) | []()
 redux 异步 action 中间件 | [redux-thunk](https://github.com/gaearon/redux-thunk) | []()
 react下拉组件 | [react-select](https://github.com/JedWatson/react-select) | []()
