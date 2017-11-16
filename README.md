@@ -2,6 +2,8 @@
 
 github开源项目 | github开源项目URL | 相关文档
 --- | --- | ---
+redux 异步 action 中间件 | [redux-thunk](https://github.com/gaearon/redux-thunk) | []()
+react下拉组件 | [react-select](https://github.com/JedWatson/react-select) | []()
 滚动路由插件 | [react-router-scroll](https://github.com/taion/react-router-scroll) | []()
 Router路由redux插件 | [react-router-redux](https://github.com/reactjs/react-router-redux) | []()
 react弹窗相关组件 | [react-modal](https://github.com/reactjs/react-modal) | []()
