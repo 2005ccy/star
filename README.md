@@ -2,6 +2,7 @@
 
 github开源项目 | github开源项目URL | 相关文档
 --- | --- | ---
+react拖拽排序组件 | [react-sortable-hoc](https://github.com/clauderic/react-sortable-hoc) | []()
 html5 Fetch Ajax垫片组件 | [fetch](https://github.com/github/fetch) | []()
 构建带样式的组件 | [styled-components](https://github.com/styled-components/styled-components) | []()
 构建函数计算链 | [reselect](https://github.com/reactjs/reselect) | []()
