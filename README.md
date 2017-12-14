@@ -2,6 +2,7 @@
 
 github开源项目 | github开源项目URL | 相关文档
 --- | --- | ---
+手势操作库 | [hammer.js](https://github.com/hammerjs/hammer.js) | []()
 css sticky定位(safari fixed Bug)垫片方法 | [stickyfill](https://github.com/wilddeer/stickyfill) | []()
 react拖拽排序组件 | [react-sortable-hoc](https://github.com/clauderic/react-sortable-hoc) | []()
 html5 Fetch Ajax垫片组件 | [fetch](https://github.com/github/fetch) | []()
