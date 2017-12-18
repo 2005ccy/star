@@ -6,15 +6,16 @@
 > 2. 提供通用shouldComponentUpdate
 > 3. 封装stateToProps模板方法
 > 4. 封装dispatchToProps模板方法
-> 5. 支持mock数据
-> 6. ajax 透明支持indexedDB
-> 7. antd-mobile由1.x 升级到 2.x
-> 8. utils通用方法封装
-> 9. highcarts 效果支持
-> 10. 使用svg代替 jpg、png图片
-> 11. offline-plugin 浏览器缓存资源，使用html5 Service-Worker、向下兼容ApplicationCache
-> 12. 屏幕兼容解决方案
-> 13. 开发的模块及页面
+> 5. 使用reducer相关数据
+> 6. 支持mock数据
+> 7. ajax 透明支持indexedDB
+> 8. antd-mobile由1.x 升级到 2.x
+> 9. utils通用方法封装
+> 10. highcarts 效果支持
+> 11. 使用svg代替 jpg、png图片
+> 12. offline-plugin 浏览器缓存资源，使用html5 Service-Worker、向下兼容ApplicationCache
+> 13. 屏幕兼容解决方案
+> 14. 开发的模块及页面
 ### 行动 A: 
 > #### 1. 成员方法自动bind 代码参看 /app/component.js
 >```javascript
@@ -100,7 +101,37 @@
 >	};
 >}
 >```
-> #### 5. 支持mock数据、非开发环境，使用mock警告
+> ####  5. 使用reducer相关数据
+>```javascript
+>// 1.使用模板方法，生成reducer数据
+>import Component from 'component';
+>export class Headline extends Component {
+>	// 状态转属性数组
+>	// 设置reducerTypes类型
+>	static setReducerTypes() {
+>		this._setReducerTypes(
+>			'app/SmartNews/Headline',
+>			'headList',
+>			'importList'
+>		);
+>	}
+>}
+> // 2. 导出模板数据
+>import { Headline } from './Headline';
+>import ThemeList from './Theme/ThemeList';
+>import ThemeDetail from './Theme/ThemeDetail';
+>import Announcement from './Announcement';
+>import Aggregation from './Announcement/Aggregation';
+>
+>export default {
+>  themes: ThemeList.reducer,
+>  themeDetail: ThemeDetail.reducer,
+>  headLine: Headline.reducer,
+>  announcement: Announcement.reducer,
+>  aggregation: Aggregation.reducer,
+>};
+>```
+> #### 6. 支持mock数据、非开发环境，使用mock警告
 >```javascript
 > // 1. 在app/utils/mock 文件夹中配置 mock数据
 > // 2. 在组件中引入mock数据
@@ -120,18 +151,18 @@
 >		}
 >	};
 >```
-> #### 6. ajax 透明支持indexedDB 代码参看： app/utils/ajax.js
+> #### 7. ajax 透明支持indexedDB 代码参看： app/utils/ajax.js
 >```javascript
 > // 1. 读取浏览器indexedDB url缓存数据，并刷新组件
 > // 2. 读取url ajax相关数据
 > // 3. 比对 indexedDB数据 与 ajax数据，不同刷新组件、更新indexedDB数据
 >```
-> #### 7. antd-mobile由1.x 升级到 2.x
+> #### 8. antd-mobile由1.x 升级到 2.x
 >```javascript
 > // 1. 兼容antd-mobile 1.x组件，参看 app/antd-mobile-wrap 文件夹
 > // 2. 扩展antd-mobile 2.x组件，请放置 app/antd-mobile-wrap 文件夹
 >```
-> #### 8. utils通用方法封装 代码参看 app/utils/base 文件夹
+> #### 9. utils通用方法封装 代码参看 app/utils/base 文件夹
 >```javascript
 > // 1. core.js 通用方法
 > //    getDate 时间相关、call 函数调用、uuid 随机字符串、includes lodash扩展方法、override 扩展现有方法、attrRename 属性重命名
@@ -142,27 +173,27 @@
 > // 5. is.js 相关逻辑判断
 > //    isDev 开发环境、 isUnMount 是否卸载
 >```
-> #### 9. highcarts 效果支持
+> #### 10. highcarts 效果支持
 >```javascript
 > // 1. 雷达图背景、半圆仪表盘、行业配置饼图
 > // 2. 理解svg规范
 >```
-> #### 10. 使用svg代替 jpg、png图片 参看 app/utils/svgs 文件夹
+> #### 11. 使用svg代替 jpg、png图片 参看 app/utils/svgs 文件夹
 >```javascript
 > // 1. 可以控制颜色、大小、减少UI依赖
 > // 2. 理解svg规范
 >```
-> #### 11. offline-plugin 浏览器缓存资源，使用html5 Service-Worker、向下兼容ApplicationCache
+> #### 12. offline-plugin 浏览器缓存资源，使用html5 Service-Worker、向下兼容ApplicationCache
 >```javascript
 > // 1. 理解Service-Worker技术、理解老标准ApplicationCache
 >```
-> #### 12. 屏幕兼容解决方案
+> #### 13. 屏幕兼容解决方案
 >```javascript
 > // 1. 引入修改 html{font-size}组件 app/utils/flexible.js 可修改宽度
 > // 2. 按住UI标注宽度，基于iphone6 375px;
 > // 3. 如UI标注 120dp，请使用 1.2rem 相关宽度
 >```
-> #### 13. 开发的模块及页面
+> #### 14. 开发的模块及页面
 >```javascript
 > // 1. 通联小智：交互优化、输入框轮询信息、忽略前后空格
 > // 2. safari确认窗口，获得焦点效果
