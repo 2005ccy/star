@@ -24,18 +24,106 @@
 >    // 所有成员方法自动bind
 > }
 >```
->这五步里面，第一步到第三步都非常快，耗时的是第四步和第五步。
->
->"生成布局"（flow）和"绘制"（paint）这两步，合称为"渲染"（render）。
-![image](http://note.youdao.com/yws/public/resource/ab3a761e622c95399c376f66000eb692/xmlnote/WEB2f50ba7e90949a07865fc753179e7073/64E0E21E7EB548F097B52165A15B5293/14854)
-> #### 2. 不能中断用户操作
-> 如果是多页系统，进行页面切换，会重新执行上面的操作。
->
-> 浏览器出现白屏、用户等待、体验很差
-> #### 3. 单页系统的原理
+> #### 2. 提供通用shouldComponentUpdate
+>```javascript
+>// 是否进行组件更新
+>	shouldComponentUpdate(nextProps, nextState) {
+>		// 遍历下次属性
+>		for (let pk in nextProps) {
+>			// 获取单个属性值
+>			let pv = nextProps[pk];
+>			// 获取当前属性值
+>			let cpv = _.get(this, `props.${pk}`);
+>			// 如果属性值不同
+>			if (_.isObject(pv) ? !_.isMatch(cpv, pv) : pv !== cpv) {
+>				// 刷新组件
+>				return true;
+>			}
+>		}
+>		// 遍历下次状态
+>		for (let sk in nextState) {
+>			// 获取单个状态值
+>			let sv = nextState[sk];
+>			// 获取当前状态值
+>			let csv = _.get(this, `state.${sk}`);
+>			// 如果状态值不同
+>			if (_.isObject(sv) ? !_.isMatch(csv, sv) : sv !== csv) {
+>				// 刷新组件
+>				return true;
+>			}
+>		}
+>		// 属性与状态值相同，不刷新组件
+>		return false;
+>	}
+>```
+> #### 3. 封装stateToProps模板方法 代码参看 app/component.js connect()方法
+>```javascript
+>import Component from 'component';
+>export class Headline extends Component {
+>	// 状态转属性数组
+>	static stateToProps = {
+>		headLine: 'headLine'
+>	};
+>}
+>```
+> #### 4. 封装封装dispatchToProps模板方法 代码参看 app/component.js connect()方法
+>```javascript
+>import Component from 'component';
+>export class Headline extends Component {
+>	// 状态转属性数组
+>// 定义发布相关属性
+>	static dispatchToProps = {
+>		// 获取重点列表
+>		getImportList: {
+>			// ajax 访问路径
+>			url: '/getImportList',
+>			// 方法类型
+>			method: 'get',
+>			// 需要复制的reducer
+>			reducer: 'importList',
+>			// 使用的mock数据
+>			mock: importListJson,
+>			// 重命名，数据中的字段
+>			rename: {
+>				desc2: 'desc'
+>			},
+>			// 改变数据中的值
+>			change: obj => _.set(obj, 'link', `https://${obj.link}`)
+>		},
+>		// 获取头条列表
+>		getHeadList: {
+>			url: '/getHeadList',
+>			method: 'get',
+>			reducer: 'headList',
+>			mock: headListJson
+>		}
+>	};
+>}
+>```
+> #### 5. 支持mock数据
+>```javascript
+> // 1. 在app/utils/mock 文件夹中配置 mock数据
+> // 2. 在组件中引入mock数据
+>	import { headListJson, importListJson, refreshHeadListJson } from 'utils/mock';
+> // 3. 使用mock数据
+> // 定义发布相关属性
+>	static dispatchToProps = {
+>		// 获取重点列表
+>		getImportList: {
+>			// ajax 访问路径
+>			url: '/getImportList',
+>			// 方法类型
+>			method: 'get',
+>			// 需要复制的reducer
+>			reducer: 'importList',
+>			// 使用的mock数据
+>			mock: importListJson,
+>		}
+>	};
+>```
 > 单页系统，只是在替换网页的某部分
 > 
 > 其他操作还是能继续使用、交互体验更优
 ### 结果 R:
-> 封装模板代码，提升开发效率
-> 框架封装通用场景，提升开发效率
+> #### 封装模板代码，提升开发效率
+> #### 框架封装通用场景，提升开发效率
