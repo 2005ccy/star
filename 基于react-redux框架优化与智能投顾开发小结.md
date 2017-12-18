@@ -106,7 +106,6 @@
 > // 2. 在组件中引入mock数据
 >	import { headListJson, importListJson, refreshHeadListJson } from 'utils/mock';
 > // 3. 使用mock数据
-> // 定义发布相关属性
 >	static dispatchToProps = {
 >		// 获取重点列表
 >		getImportList: {
@@ -121,9 +120,55 @@
 >		}
 >	};
 >```
-> 单页系统，只是在替换网页的某部分
-> 
-> 其他操作还是能继续使用、交互体验更优
+> #### 6. ajax 透明支持indexedDB 代码参看： app/utils/ajax.js
+>```javascript
+> // 1. 读取浏览器indexedDB url缓存数据，并刷新组件
+> // 2. 读取url ajax相关数据
+> // 3. 比对 indexedDB数据 与 ajax数据，不同刷新组件、更新indexedDB数据
+>```
+> #### 7. antd-mobile由1.x 升级到 2.x
+>```javascript
+> // 1. 兼容antd-mobile 1.x组件，参看 app/antd-mobile-wrap 文件夹
+> // 2. 扩展antd-mobile 2.x组件，请放置 app/antd-mobile-wrap 文件夹
+>```
+> #### 8. utils通用方法封装 代码参看 app/utils/base 文件夹
+>```javascript
+> // 1. core.js 通用方法
+> //    getDate 时间相关、call 函数调用、uuid 随机字符串、includes lodash扩展方法、override 扩展现有方法、attrRename 属性重命名
+> // 2. dom.js DOM元素方法
+> //    jqueryDidMount 元素挂载成功，支持轮询检查 focusStyle 模拟获得焦点效果
+> // 3. hammer.js 触屏操作相关类
+> // 4. indexedDB 浏览器数据库操作
+> // 5. is.js 相关逻辑判断
+> //    isDev 开发环境、 isUnMount 是否卸载
+>```
+> #### 9. highcarts 效果支持
+>```javascript
+> // 1. 雷达图背景、半圆仪表盘、行业配置饼图
+> // 2. 理解svg规范
+>```
+> #### 10. 使用svg代替 jpg、png图片 参看 app/utils/svgs 文件夹
+>```javascript
+> // 1. 可以控制颜色、大小、减少UI依赖
+> // 2. 理解svg规范
+>```
+> #### 11. offline-plugin 浏览器缓存资源，使用html5 Service-Worker、向下兼容ApplicationCache
+>```javascript
+> // 1. 理解Service-Worker技术、理解老标准ApplicationCache
+>```
+> #### 12. 屏幕兼容解决方案
+>```javascript
+> // 1. 引入修改 html{font-size}组件 app/utils/flexible.js 可修改宽度
+> // 2. 按住UI标注宽度，基于iphone6 375px;
+> // 3. 如UI标注 120dp，请使用 1.2rem 相关宽度
+>```
+> #### 13. 开发的模块及页面
+>```javascript
+> // 1. 通联小智：交互优化、输入框轮询信息、忽略前后空格
+> // 2. safari确认窗口，获得焦点效果
+> // 3. 聚合页面编写
+> // 4. 智能资讯：头条页面、走马灯组件、数据列表组件
+>```
 ### 结果 R:
 > #### 封装模板代码，提升开发效率
 > #### 框架封装通用场景，提升开发效率
