@@ -1,9 +1,13 @@
 ### 情境 S:
-> 1. 单页系统的优势
+> 1. 基于react-redux框架优化
 ### 任务 T:  
-> 1. 先了解网页生成过程
-> 2. 不能中断用户操作
-> 3. 单页系统的原理
+> 1. 成员方法自动bind
+> 2. 提供通用shouldComponentUpdate
+> 3. 封装stateToProps模板方法
+> 4. 封装dispatchToProps模板方法
+> 5. 支持mock数据
+> 6. ajax 透明支持indexedDB
+> 7. 
 ### 行动 A: 
 > #### 1. 了解网页生成过程
 > ![image](http://note.youdao.com/yws/public/resource/ab3a761e622c95399c376f66000eb692/xmlnote/WEB2f50ba7e90949a07865fc753179e7073/B5C7C5AA017A473B832FCBC0359CDA87/14840)
