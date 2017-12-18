@@ -100,7 +100,7 @@
 >	};
 >}
 >```
-> #### 5. 支持mock数据
+> #### 5. 支持mock数据、非开发环境，使用mock警告
 >```javascript
 > // 1. 在app/utils/mock 文件夹中配置 mock数据
 > // 2. 在组件中引入mock数据
@@ -137,7 +137,7 @@
 > //    getDate 时间相关、call 函数调用、uuid 随机字符串、includes lodash扩展方法、override 扩展现有方法、attrRename 属性重命名
 > // 2. dom.js DOM元素方法
 > //    jqueryDidMount 元素挂载成功，支持轮询检查 focusStyle 模拟获得焦点效果
-> // 3. hammer.js 触屏操作相关类
+> // 3. hammer.js 触屏操作相关类，优化方向精确度
 > // 4. indexedDB 浏览器数据库操作
 > // 5. is.js 相关逻辑判断
 > //    isDev 开发环境、 isUnMount 是否卸载
