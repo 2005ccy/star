@@ -2,6 +2,7 @@
 
 github开源项目 | github开源项目URL | 相关文档
 --- | --- | ---
+类thunk 业务处理库 | [redux-saga](https://github.com/redux-saga/redux-saga) | [redux-saga中文](http://leonshi.com/redux-saga-in-chinese/docs/api/index.html) 
 手势操作库 | [hammer.js](https://github.com/hammerjs/hammer.js) | [hammer.js](http://www.uedsc.com/hammerjs-api.html)
 css sticky定位(safari fixed Bug)垫片方法 | [stickyfill](https://github.com/wilddeer/stickyfill) | []()
 react拖拽排序组件 | [react-sortable-hoc](https://github.com/clauderic/react-sortable-hoc) | []()
