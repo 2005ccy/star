@@ -2,6 +2,7 @@
 
 github开源项目 | github开源项目URL | 相关文档
 --- | --- | ---
+react-router4.x | [react-router](https://reacttraining.com/react-router/web/guides/philosophy) | [react-router中文](https://www.cnblogs.com/zhanghuiming/p/7592132.html)
 redux 单向流 | [redux](https://github.com/reactjs/redux) | [redux中文](http://cn.redux.js.org/)
 中文书链接 | [中文书](https://github.com/justjavac/free-programming-books-zh_CN) | []()
 类thunk 业务处理库 | [redux-saga](https://github.com/redux-saga/redux-saga) | [redux-saga中文](http://leonshi.com/redux-saga-in-chinese/docs/api/index.html) 
