@@ -2,6 +2,7 @@
 
 github开源项目 | github开源项目URL | 相关文档
 --- | --- | ---
+js 处理pdf | [pdf.js](https://github.com/mozilla/pdf.js) | []()
 html转word | [html-docx-js](https://github.com/evidenceprime/html-docx-js) | []()
 服务器端渲染React Next.js | [next.js](https://github.com/zeit/next.js) | [Next.js背后的哲学和设计](https://segmentfault.com/a/1190000007827278) [Next.js: 获取数据](https://segmentfault.com/a/1190000009604921)
 样式组件styled-components | [styled-components](https://www.styled-components.com/docs/api) | []()
