@@ -2,6 +2,7 @@
 
 github开源项目 | github开源项目URL | 相关文档
 --- | --- | ---
+js全文检索引擎 | [lunr](https://github.com/olivernn/lunr.js) | []()
 监听node程序变动，重启node | [nodemon](https://github.com/remy/nodemon) | []()
 js 处理pdf | [pdf.js](https://github.com/mozilla/pdf.js) | []()
 html转word | [html-docx-js](https://github.com/evidenceprime/html-docx-js) | []()
