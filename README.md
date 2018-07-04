@@ -1,5 +1,10 @@
 # 中文api列表
 
+github上大牛团队 | 团队地址
+--- | ---
+谷歌Chrome团队 | [GoogleChrome](https://github.com/GoogleChrome)
+脸书团队 | [facebook](https://github.com/facebook)
+爱比邻团队 | [airbnb](https://github.com/airbnb)
 
 github开源项目 | github开源项目URL | 相关文档
 --- | --- | ---
